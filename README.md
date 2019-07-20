@@ -19,5 +19,10 @@ Current code can be updated further to do
 1. Read hbase table data using RDD or DF  
 1. Do bulk Hbase put  
 
+## References
+1. [A hello world example about connecting Scala to HBase](https://gist.github.com/raghu-icecraft/7ffbc4d4fee6c6d8d0568212cd206779)
+1. [Use Apache Spark to read and write Apache HBase data](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-using-spark-query-hbase)
+
+
 
 
