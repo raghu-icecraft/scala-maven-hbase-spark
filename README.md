@@ -22,6 +22,8 @@ Current code can be updated further to do
 ## References
 1. [A hello world example about connecting Scala to HBase](https://gist.github.com/raghu-icecraft/7ffbc4d4fee6c6d8d0568212cd206779)
 1. [Use Apache Spark to read and write Apache HBase data](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-using-spark-query-hbase)
+1. [Create a Spark Application with Scala using Maven on IntelliJ](http://knowdimension.com/en/data/create-a-spark-application-with-scala-using-maven-on-intellij/)
+1. [Scala Maven project example](https://github.com/jesperdj/scala-maven-example)
 
 
 
