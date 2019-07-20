@@ -73,13 +73,15 @@ object HbaseHistory {
     val connection = ConnectionFactory.createConnection(hbaseConf)
     val table = connection.getTable(TableName.valueOf( Bytes.toBytes("emp_new") ) )
 
-    println("\nScan Example:")
+    println("\nScan of all rows start here...........")
 
     var scanResult = table.getScanner(new Scan()).iterator()
 
     while (scanResult.hasNext) {
       updateRow(scanResult.next(), table)
     }
+
+    println("\nScan of all rows end here...........")
 
     table.close()
     connection.close()
